@@ -41,6 +41,9 @@ const Page = props => {
         {props.data.map((item, idx) => (
           <PostLink key={idx} {...item} />
         ))}
+        <li>
+          <a href="/admin">Admin Page</a>
+        </li>
       </ul>
     </>
   );
